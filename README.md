@@ -3,7 +3,7 @@ DynIP
 
 This script provides a way to multiple update the IP of domain names from ClouDNS.
 It works on Linux, Widows, OS X, Android. Unix based systems has native support for python,
-on Windows you need to install [python](https://www.python.org/downloads/windows/)
+on Windows you need to install [python](https://www.python.org/downloads/windows/).
 
 ## Downloading
 
@@ -11,7 +11,7 @@ Using git
 
     git clone https://github.com/physicalit/ClouDNS-dynIP.git
 
-Archive [download](https://github.com/physicalit/ClouDNS-dynIP/archive/master.zip)
+Archive [download](https://github.com/physicalit/ClouDNS-dynIP/archive/master.zip).
 
 ## Configuring
 
@@ -32,11 +32,11 @@ a config file, it's recommended for cron jobs.
       #You need to run the above command in the same working directory as the config file
 ```
 * Having all the files in the same working directory
-
+```
     ./dynip.py
     or
     ./dynip-all.py
-
+```
 ## Troubleshooting
 
 `Error`
