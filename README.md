@@ -16,7 +16,7 @@ Archive [download](https://github.com/physicalit/ClouDNS-dynIP/archive/master.zi
 ## Configuring
 
 Configure with the links given by ClouDNS the [config.py](https://github.com/physicalit/ClouDNS-dynIP/blob/master/config.py#L11#L13) file. In `config.py` and `dynip-all.py` the links are mandatory to be ordered from `100` to `n`.
-Configure the [dynip-all.py](https://github.com/physicalit/ClouDNS-dynIP/blob/master/dynip-all.py#L24) file  to have the same number as the number of the links, depends on with case scenario you will use the script
+Configure the [dynip-all.py](https://github.com/physicalit/ClouDNS-dynIP/blob/master/dynip-all.py#L25) file  to have the same number as the number of the links, depends on with case scenario you will use the script
 
 The file [dynip-all.py](https://github.com/physicalit/ClouDNS-dynIP/blob/master/dynip-all.py#L12#L25) it is used without
 a config file, it's recommended for cron jobs.
