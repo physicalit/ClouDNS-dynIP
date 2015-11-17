@@ -11,6 +11,11 @@
 #=============================
 from config import *
 
+# Counting the lines of config.py file
+# ====================================
+num_lines = sum(1 for line in open('config.py'))
+lines = num_lines - 11
+
 # Importing the module to open the links
 # ======================================
 import urllib
@@ -18,7 +23,7 @@ import urllib
 # Creating the loop for opening the links one by one
 # ==================================================
 i = 0
-while i < 3:               # The number on time the loob will repeat
+while i < lines:               # The number on time the loob will repeat
     url_number = 100 + i
     page = urllib.urlopen(urls[url_number])
     page.close()
