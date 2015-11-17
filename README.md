@@ -25,11 +25,11 @@ a config file, it's recommended for cron jobs.
 
 * Having just a config file and running it remotely:
 
-    # getting the `config.py` file
-    wget https://raw.githubusercontent.com/physicalit/ClouDNS-dynIP/master/config.py
-    # After you have edited the config file run:
-    curl -s https://raw.githubusercontent.com/physicalit/ClouDNS-dynIP/master/dynip.py | python
-    # You need to run the above command in the same working directory as the config file
+      #getting the `config.py` file
+      wget https://raw.githubusercontent.com/physicalit/ClouDNS-dynIP/master/config.py
+      #After you have edited the config file run:
+      curl -s https://raw.githubusercontent.com/physicalit/ClouDNS-dynIP/master/dynip.py | python
+      #You need to run the above command in the same working directory as the config file
 
 * Having all the files in the same working directory
 
@@ -48,6 +48,8 @@ a config file, it's recommended for cron jobs.
 You don't have the config.py file in the working directory
 
 ## Acknowledgement
+
+  [StackOverflow](https://stackoverflow.com/questions/33726806/python-syntaxerror-cant-assign-to-literal)
 
 ## Licensing
 
