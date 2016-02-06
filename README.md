@@ -49,9 +49,6 @@ or
 
 You don't have the config.py file in the working directory
 
-## Acknowledgement
-
-  [StackOverflow](https://stackoverflow.com/questions/33726806/python-syntaxerror-cant-assign-to-literal)
 
 ## Licensing
 
